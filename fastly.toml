@@ -1,5 +1,12 @@
 manifest_version = 2
-name = "Default starter for JavaScript"
-description = "A basic starter kit that demonstrates routing, simple synthetic responses and overriding caching rules."
+name = "Add a new field to a JSON response"
+description = ""
 authors = ["<oss@fastly.com>"]
 language = "javascript"
+
+[local_server.backends.origin_0]
+  url = "https://mock.edgecompute.app"
+
+[setup.backends.origin_0]
+address = "mock.edgecompute.app"
+port = 443
