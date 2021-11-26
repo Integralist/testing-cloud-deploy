@@ -3,6 +3,7 @@ name = "Add a new field to a JSON response"
 description = ""
 authors = ["<oss@fastly.com>"]
 language = "javascript"
+service_id = "3e9ZvP4gepxSEcp1NeNphE"
 
 [local_server.backends.origin_0]
   url = "https://mock.edgecompute.app"
